@@ -1,0 +1,9 @@
+service: testing-sls-4-lambda-node
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+
+functions:
+  app:
+    handler: index.main
